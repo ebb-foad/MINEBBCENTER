@@ -89,7 +89,29 @@ h2 {
     color: green;
     font-style: italic;
 }
+/* Styla knappen */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+}
 
+button:hover {
+    background-color: #45a049;
+}
+
+/* Styla "Om oss"-sektionen */
+#om-oss-text {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
 .price del {
     color: red;
     text-decoration: line-through;

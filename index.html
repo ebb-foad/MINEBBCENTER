@@ -81,3 +81,42 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om Oss</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Din befintliga HTML-kod -->
+
+    <!-- Om oss-knappen -->
+    <button id="om-oss-knapp" onclick="visaOmOss()">Om oss</button>
+
+    <!-- Texten som visas när knappen klickas -->
+    <div id="om-oss-text" style="display: none;">
+        <h2>Om oss</h2>
+        <p>Vi är en klinik specialiserad på medicinsk viktnedgång och hälsokonsultationer. Vårt mål är att hjälpa människor att uppnå sina hälsomål genom en holistisk och vetenskapsbaserad metod. Vårt team består av experter inom medicin, IT och marknadsföring, och vi är passionerade över att förbättra livskvaliteten för våra patienter.</p>
+    </div>
+
+    <!-- Din befintliga HTML-kod -->
+
+    <script>
+        function visaOmOss() {
+            // Hitta elementet för "Om oss"-texten
+            var omOssText = document.getElementById('om-oss-text');
+
+            // Om texten är dold, visa den, annars dölj den
+            if (omOssText.style.display === "none") {
+                omOssText.style.display = "block";
+            } else {
+                omOssText.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+</html>
